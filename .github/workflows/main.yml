@@ -114,3 +114,4 @@ jobs:
           namespace: default
           values: appimage=${{ secrets.REGISTRY }}/${{ env.ECR_REPOSITORY }},apptag=${{ github.run_number }}
           name: vprofile-stack
+#
